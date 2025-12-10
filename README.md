@@ -49,4 +49,52 @@ Incluye:
 ---
 
 ## 🧩 Estructura del Repositorio (Vista General)
+📁 / (raíz)
+├── 📄 [README.md]()
+├── 📄 [CONTRIBUTING.md]()
+├── 📄 [LICENSE]()
+├── 📄 [.gitignore]()
+├── 📄 [requirements.txt]()
+├── 📄 [environment.yml]()  (opcional)
+├── 📄 [Makefile]()
+│
+├── 📁 [.github/]()
+│   ├── 📁 [.github/workflows/]()        → CI (ej.: run-tests.yml, ci-notebooks.yml)
+│   └── 📁 [.github/ISSUE_TEMPLATE/]()   → Plantillas de issues y pull requests
+│
+├── 📁 [docs/]()
+│   ├── 📁 [docs/procedimientos/]()
+│   │   ├── 📄 [procedimiento_objetivo1.md]()
+│   │   └── 📄 [procedimiento_objetivo3.md]()
+│   ├── 📁 [docs/validacion/]()
+│   └── 📁 [docs/lecturas/]()
+│
+├── 📁 [notebooks/]()
+│   ├── 📁 [notebooks/prototipos/]()
+│   └── 📁 [notebooks/experiments_formales/]()
+│
+├── 📁 [src/]()
+│   ├── 📁 [src/objetivo1_agrupamiento/]()
+│   │   ├── 📁 [preprocessing/]()
+│   │   ├── 📁 [embeddings/]()
+│   │   ├── 📁 [modelos/]()
+│   │   └── 📁 [clustering/]()
+│   └── 📁 [src/objetivo3_validacion/]()
+│       ├── 📁 [reorganizacion/]()
+│       └── 📁 [seleccion_usuarios/]()
+│
+├── 📁 [datasets/]()
+│   ├── 📁 [datasets/raw/]()
+│   ├── 📁 [datasets/processed/]()
+│   └── 📄 [README_datasets.md]()
+│
+├── 📁 [results/]()
+│   ├── 📁 [results/figures/]()
+│   ├── 📁 [results/tables/]()
+│   └── 📁 [results/runs_log/]()
+│
+├── 📁 [tests/]()
+├── 📁 [scripts/]()
+└── 📄 [experiments_meta.md]()
+
 
