@@ -49,52 +49,54 @@ Incluye:
 ---
 
 ## 🧩 Estructura del Repositorio (Vista General)
+```
 📁 / (raíz)
-├── 📄 [README.md]()
-├── 📄 [CONTRIBUTING.md]()
-├── 📄 [LICENSE]()
-├── 📄 [.gitignore]()
-├── 📄 [requirements.txt]()
-├── 📄 [environment.yml]()  (opcional)
-├── 📄 [Makefile]()
+├── 📄 [README.md]()                    ← Documentación principal del proyecto
+├── 📄 [CONTRIBUTING.md]()              ← Guía para contribuir y colaborar en el proyecto
+├── 📄 [LICENSE]()                      ← Licencia del proyecto
+├── 📄 [.gitignore]()                   ← Archivos y carpetas ignoradas por Git
+├── 📄 [requirements.txt]()             ← Lista de dependencias para Python
+├── 📄 [environment.yml]() (opcional)   ← Entorno Conda para reproducibilidad
+├── 📄 [Makefile]()                     ← Comandos automatizados para tareas comunes
 │
-├── 📁 [.github/]()
-│   ├── 📁 [.github/workflows/]()        → CI (ej.: run-tests.yml, ci-notebooks.yml)
-│   └── 📁 [.github/ISSUE_TEMPLATE/]()   → Plantillas de issues y pull requests
+├── 📁 [.github/]()                  ← Configuraciones específicas de GitHub
+│   ├── 📁 [workflows/]()            ← Definiciones de CI/CD (tests automáticos, etc.)
+│   └── 📁 [ISSUE_TEMPLATE/]()       ← Plantillas para issues y pull requests
 │
-├── 📁 [docs/]()
-│   ├── 📁 [docs/procedimientos/]()
-│   │   ├── 📄 [procedimiento_objetivo1.md]()
+├── 📁 [docs/]()                           ← Documentación complementaria y formal
+│   ├── 📁 [procedimientos/]()             ← Procedimientos específicos (objetivos 1 y 3)
+│   │   ├── 📄 [procedimiento_objetivo1.md]()  
 │   │   └── 📄 [procedimiento_objetivo3.md]()
-│   ├── 📁 [docs/validacion/]()
-│   └── 📁 [docs/lecturas/]()
+│   ├── 📁 [validacion/]()                 ← Material relacionado con validación de escenarios
+│   └── 📁 [lecturas/]()                   ← Resúmenes, papers y bibliografía relevante
 │
-├── 📁 [notebooks/]()
-│   ├── 📁 [notebooks/prototipos/]()
-│   └── 📁 [notebooks/experiments_formales/]()
+├── 📁 [notebooks/]()                 ← Jupyter notebooks para experimentos y prototipos
+│   ├── 📁 [prototipos/]()            ← Pruebas exploratorias y desarrollo rápido
+│   └── 📁 [experiments_formales/]()  ← Experimentos documentados y reproducibles
 │
-├── 📁 [src/]()
-│   ├── 📁 [src/objetivo1_agrupamiento/]()
-│   │   ├── 📁 [preprocessing/]()
-│   │   ├── 📁 [embeddings/]()
-│   │   ├── 📁 [modelos/]()
-│   │   └── 📁 [clustering/]()
-│   └── 📁 [src/objetivo3_validacion/]()
-│       ├── 📁 [reorganizacion/]()
-│       └── 📁 [seleccion_usuarios/]()
+├── 📁 [src/]()                         ← Código fuente organizado por objetivo
+│   ├── 📁 [objetivo1_agrupamiento/]()  ← Código para agrupamiento basado en IA
+│   │   ├── 📁 [preprocessing/]()       ← Limpieza y preparación de datos
+│   │   ├── 📁 [embeddings/]()          ← Modelos y generación de vectores semánticos
+│   │   ├── 📁 [modelos/]()             ← Modelos NLP implementados o usados
+│   │   └── 📁 [clustering/]()          ← Algoritmos de agrupamiento
+│   └── 📁 [objetivo3_validacion/]()    ← Código para reorganización y validación
+│       ├── 📁 [reorganizacion/]()      ← Métodos para reestructurar escenarios
+│       └── 📁 [seleccion_usuarios/]()  ← Algoritmos para selección de evaluadores
 │
-├── 📁 [datasets/]()
-│   ├── 📁 [datasets/raw/]()
-│   ├── 📁 [datasets/processed/]()
-│   └── 📄 [README_datasets.md]()
+├── 📁 [datasets/]()                 ← Datos usados en el proyecto
+│   ├── 📁 [raw/]()                  ← Datos originales, sin modificar
+│   ├── 📁 [processed/]()            ← Datos transformados o limpios para análisis
+│   └── 📄 [README_datasets.md]()    ← Explicación sobre los datasets y uso
 │
-├── 📁 [results/]()
-│   ├── 📁 [results/figures/]()
-│   ├── 📁 [results/tables/]()
-│   └── 📁 [results/runs_log/]()
+├── 📁 [results/]()                ← Resultados generados por experimentos
+│   ├── 📁 [figures/]()              ← Gráficos e imágenes
+│   ├── 📁 [tables/]()               ← Tablas y resúmenes numéricos
+│   └── 📁 [runs_log/]()             ← Logs y detalles de ejecuciones
 │
-├── 📁 [tests/]()
-├── 📁 [scripts/]()
-└── 📄 [experiments_meta.md]()
+├── 📁 [tests/]()                  ← Tests unitarios y de integración
+├── 📁 [scripts/]()                ← Scripts auxiliares y utilitarios
+└── 📄 [experiments_meta.md]()      ← Metadatos y resumen general de experimentos
+```
 
 
